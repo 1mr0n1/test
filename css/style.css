@@ -1,0 +1,149 @@
+@import "./reset.css";
+
+body{
+    width: 100%;
+    max-width: 1512px;
+    background: #04364A;
+}
+
+.container{
+    margin-top: 118px;
+    margin-bottom: 118px;
+    margin-left: 90px;
+    margin-right: 90px;
+    display: flex;
+    gap: 100px;
+}
+
+.talk{
+    font-family: "Kodchasan", sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 78px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+span{
+    font-family: "Kodchasan", sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 78px;
+    text-align: left;
+    color: #64CCC5;
+}
+
+.block{
+    display: flex;
+}
+
+.information{
+    display: grid;
+}
+
+.block1{
+    font-family: "Nunito", sans-serif;
+    font-family: Nunito;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.authorize{
+    width: Fixed (631px)px;
+    height: Hug (734px)px;
+    padding: 50px 35px 50px 35px;
+    gap: 32px;
+    border-radius: 24px;
+    opacity: 0px;
+    background: #FFFEFE;
+}
+
+.send-message{
+    position: relative;
+    top: 50px;
+    right: 100px;
+}
+
+.interest{
+    font-family: "Nunito", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    color: #176B87;
+}
+
+a {
+    text-decoration: none;
+    color: #787878;
+}
+
+.btn{
+    width: Hug (139px)px;
+    height: Hug (44px)px;
+    padding: 10px 20px 10px 20px;
+    gap: 8px;
+    border-radius: 50px;
+    opacity: 0px;
+    background-color: transparent;
+    border: 1px solid #787878;
+    font-family: Nunito;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    
+}
+
+.btn:hover{
+    border: none;
+    color: white;
+    background-color: #176B87;
+    transition: 0.5s;
+}
+
+.name{
+    font-family: "Nunito", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 16px;
+    text-align: left;
+    color: #176B87;
+}
+
+.name-input{
+    width: Fill (561px);
+    height: Hug (48px);
+    gap: 0px;
+    border-left: 2px;
+    opacity: 0px;
+    padding-bottom: 20px;
+}
+
+.send-message{
+    border: none;
+    background: #176B87;
+    width: Fill (561px)px;
+    height: Hug (56px)px;
+    padding: 16px 71px 16px 71px;
+    gap: 8px;
+    border-radius: 50px;
+    opacity: 0px;
+    color: white;
+}
+
+.talk{
+    padding-bottom: 72px;
+}
+
+.logos{
+    padding-top: 72px;
+}
+
+.btns1{
+    gap: 20px;
+    padding-bottom: 20px;
+}
